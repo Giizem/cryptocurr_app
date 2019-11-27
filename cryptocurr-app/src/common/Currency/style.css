@@ -1,0 +1,19 @@
+.currency {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+}
+.currency img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+.currency div {
+  display: flex;
+  flex-direction: column;
+}
+.currency div span:last-child {
+  font-weight: 500;
+  font-size: 11px;
+}

@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  background: #fff;
+  margin: 1px 0;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: none;
+  box-shadow: none;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.87);
+  border-collapse: separate;
+  border-spacing: 0;
+  white-space: nowrap;
+  font-weight: 600;
+}
+thead {
+  background-color: #fafafa;
+}
+
+tr {
+  cursor: pointer;
+}
+tr:hover {
+  background-color: #f1f1f1;
+}
+td {
+  border-bottom: 1px solid #ccc;
+  padding: 0.8em 1em;
+}
